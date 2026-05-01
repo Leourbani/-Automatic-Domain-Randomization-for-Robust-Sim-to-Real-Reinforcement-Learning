@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+
+# Virtual environment
+venv/
+.env/
+
+# Stable Baselines / Gym logs
+tmp/
+*.monitor.csv
+
+# Trained models
+*.pth
+
+# Mujoco / simulation
+*.log
+*.xml~
+
+# OS
+.DS_Store
